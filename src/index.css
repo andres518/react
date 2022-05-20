@@ -1,7 +1,7 @@
 .baner{
   display:flex;
  justify-content: space-evenly;
- background-color: aqua;
+ background-color: #504c4c;
  height: 70px;
  align-items: center;
 
@@ -22,6 +22,21 @@ nav{
 a{
   text-decoration: none;
   color:white
+}
+
+.contador{
+  display :flex;
+  flex-direction: column;
+  gap:3px;
+  align-items: center;
+}
+
+.btnMas{
+  background-color: aqua;
+}
+
+.Count{
+  font-size:100px;
 }
 
 

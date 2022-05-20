@@ -8,12 +8,7 @@ export const HeaderHome = () => {
          <Logo/>
          <h1>React Activity</h1>
          <NavHome/>
-
       </div>
        
-
-   
-   
-
   )
 }

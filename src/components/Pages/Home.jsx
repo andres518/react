@@ -5,7 +5,6 @@ export const Home = () => {
   return (
   <div className="menu">
     <HeaderHome/>
-
   </div>
   
   )

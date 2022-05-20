@@ -1,4 +1,4 @@
-import logoTipo from '../../../Images/logo2.png';
+import logoTipo from '../../../Images/logo3.png';
 
 import React from 'react'
 
