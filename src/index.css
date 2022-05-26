@@ -1,3 +1,5 @@
+
+
 .baner{
   display:flex;
  justify-content: space-evenly;
@@ -7,7 +9,15 @@
 
 }
 
-.logo{
+.logoImg{
+  width:80px;
+}
+.img{
+  width:200px;
+  
+}
+
+.imgC{
   width:80px;
 }
 
@@ -27,17 +37,93 @@ a{
 .contador{
   display :flex;
   flex-direction: column;
-  gap:3px;
+  gap:30px;
   align-items: center;
+}
+
+.btn{
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  
 }
 
 .btnMas{
   background-color: aqua;
+
 }
+.btnMenos{
+  background-color: rgb(0, 255, 191);
+}
+
+.btnReset{
+  background-color: rgb(115, 255, 0);
+}
+
+  
 
 .Count{
   font-size:100px;
 }
+
+.buttons{
+  display:flex;
+  align-items: center;
+  gap:10px;
+
+}
+.Dark{
+  background-color:aqua;
+  border-radius: 6px;
+}
+
+
+body.color{
+  transition: 1s;
+  background-color: rgb(67, 58, 97);
+}
+
+
+
+
+
+
+
+
+
+.lbl1{
+  display: inline-block;
+  width: 65px;
+  height: 33px;
+  background-color: rgb(170, 170, 170);
+  border-radius: 100px;
+  cursor: pointer;
+  position: relative; 
+  transition: .2s;
+}
+.lbl1::after{
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: aliceblue;
+  border-radius: 100px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: .2s;
+}
+#switch1:checked + .lbl1::after{
+  left: 36px;
+}
+#switch1:checked + .lbl1{
+  background-color: rgb(0, 182, 15);
+}
+#switch1{
+  display: none;
+}
+
+
 
 
 

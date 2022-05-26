@@ -1,14 +1,14 @@
 import React from 'react'
 import { HeaderHome } from '../Layouts/HeaderHome/HeaderHome'
+import {Contador} from '../UI/contador/Contador'
 
-export const Home = () => {
+export const Count = () => {
   return (
-    <div>
-  <div className="menu">
+      <div>
+    <div className="menu">
     <HeaderHome/>
   </div>
-    <h1>Bienvenido A Home</h1>
+     <Contador/>
   </div>
-  
   )
 }
