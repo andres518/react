@@ -8,7 +8,7 @@ export const HeaderHome = () => {
   return (
       <div className="baner">
          <Logo log={logoTipo} style="logoImg"/>
-         <h1>React Activity</h1>
+         <h1 className="react">React Activity</h1>
          <NavHome/>
          <DarkMode/>  
       </div>

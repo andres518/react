@@ -7,8 +7,9 @@ export const NavHome = () => {
     <div>
     <nav>
             <li><Link to="/">Home</Link></li>
-            <li><a href="#">About</a></li>
-            <li><Link to="Count">Count</Link></li>
+            <li><Link to="/Search">Search</Link></li>
+            <li><Link to="/Tenor">Api Tenor</Link></li>
+            <li><Link to="/Count">Count</Link></li>
            
     </nav>
     

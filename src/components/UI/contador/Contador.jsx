@@ -8,16 +8,17 @@ import { Logo } from '../Logo/Logo';
 
         const [counter, setCounter] = useState(0)
 
-        let imag=document.querySelector('.imgen')
 
         useEffect(() => {
-
-        if(counter>=100){
-          imag.classList.add('imgC')
           
-        }else{
-          imag.classList.remove('imgC')
-        }
+          let imag=document.querySelector('.imgen')
+
+          if(counter>=100){
+            imag.classList.add('imgC')
+            
+          }else{
+            imag.classList.remove('imgC')
+          }
 
       },[counter])
      
